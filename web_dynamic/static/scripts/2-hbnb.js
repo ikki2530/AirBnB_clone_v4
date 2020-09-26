@@ -25,10 +25,3 @@ $.get('http://0.0.0.0:5001/api/v1/status/', function (data, status) {
     $("#api_status").removeClass("available");
   }
 })
-$.post('http://0.0.0.0:5001/api/v1/places_search/',
-{
-
-},
-function (data, status) {
-  console.log(data.status)
-})
