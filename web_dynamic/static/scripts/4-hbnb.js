@@ -42,6 +42,7 @@ $(document).ready(function(){
       searchData = {'amenities':ids_amenities_copy};
       console.log("searchData " + typeof searchData.amenities)
     }
+    $('SECTION.places').empty();
     $.ajax({
       url: 'http://0.0.0.0:5001/api/v1/places_search/',
       type: 'POST',
