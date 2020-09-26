@@ -53,6 +53,11 @@ button:hover {
 .amenities input {
     margin-right: 10px;
 }
+.amenities h4 {
+    white-space: nowrap; 
+    width: 100px; 
+    text-overflow: ellipsis;
+}
 
 .popover {
     visibility: hidden;
