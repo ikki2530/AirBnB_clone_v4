@@ -54,9 +54,11 @@ button:hover {
     margin-right: 10px;
 }
 .amenities h4 {
-    white-space: nowrap; 
-    width: 100px; 
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
     text-overflow: ellipsis;
+    height: 100%;
 }
 
 .popover {
