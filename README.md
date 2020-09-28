@@ -65,9 +65,9 @@ Classes inherited from Base Model:
 * ` def reload(self)` -  deserializes the JSON file to __objects
 
 #### `/web_dynamic` directory contains scripts, html and css files :
-[4-hbnb.js](/web_dynamic/static/scripts/4-hbnb.js ) - Script that loads data from the API to the frontend.
-[4-hbnb.html](/web_dynamic/templates/4-hbnb.html) - html file to show all places, cities and filters of our website.
-[4-hbnb.py](/web_dynamic/4-hbnb.py) - define routes for the webpage.
+* [4-hbnb.js](/web_dynamic/static/scripts/4-hbnb.js ) - Script that loads data from the API to the frontend.
+* [4-hbnb.html](/web_dynamic/templates/4-hbnb.html) - html file to show all places, cities and filters of our website.
+* [4-hbnb.py](/web_dynamic/4-hbnb.py) - define routes for the webpage.
 
 #### `/tests` directory contains all unit test cases for this project:
 [/test_models/test_base_model.py](/tests/test_models/test_base_model.py) - Contains the TestBaseModel and TestBaseModelDocs classes
