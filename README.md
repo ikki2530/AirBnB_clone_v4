@@ -1,6 +1,9 @@
 # AirBnB Clone - The Console
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
+# AirBnB Clone - Web Dynamic
+We load the content from the API to the frontend and add filters for amenities, cities, states. Besides, we add an element that indicates the API status.
+
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
 * Retrieve an object from a file, a database etc...
@@ -60,6 +63,11 @@ Classes inherited from Base Model:
 * `def new(self, obj)` - sets in __objects the obj with key <obj class name>.id
 * `def save(self)` - serializes __objects to the JSON file (path: __file_path)
 * ` def reload(self)` -  deserializes the JSON file to __objects
+
+#### `/web_dynamic` directory contains scripts, html and css files :
+[4-hbnb.js](/web_dynamic/static/scripts/4-hbnb.js ) - Script that loads data from the API to the frontend.
+[4-hbnb.html](/web_dynamic/templates/4-hbnb.html) - html file to show all places, cities and filters of our website.
+[4-hbnb.py](/web_dynamic/4-hbnb.py) - define routes for the webpage.
 
 #### `/tests` directory contains all unit test cases for this project:
 [/test_models/test_base_model.py](/tests/test_models/test_base_model.py) - Contains the TestBaseModel and TestBaseModelDocs classes
