@@ -1,14 +1,14 @@
-$(document).change(function (){
-  ids_amenities = [];
-  name_amenities = [];
-  $.each($("input[type='checkbox']:checked"), function () {
-    ids_amenities.push($(this).attr('data-id'));
-    name_amenities.push($(this).attr('data-name'));
+$(document).change(function () {
+  const idsAmenities = [];
+  const nameAmenities = [];
+  $.each($('input[type="checkbox"]:checked'), function () {
+    idsAmenities.push($(this).attr('data-id'));
+    nameAmenities.push($(this).attr('data-name'));
   });
-  console.log(ids_amenities, name_amenities);
+  console.log(idsAmenities, nameAmenities);
   let txt = '';
-  for (let i = 0; i < name_amenities.length; i++) {
-    txt += name_amenities[i] + ", ";
+  for (let i = 0; i < nameAmenities.length; i++) {
+    txt += nameAmenities[i] + ', ';
   }
   $('.amenities h4').text(txt);
 });
